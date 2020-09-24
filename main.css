@@ -9,7 +9,6 @@ body {
   font-size: small;
   color: #a0a0a0;
   display: flex;
-  overflow: hidden;
   background-image: linear-gradient(to right bottom, rgb(53, 92, 100), rgb(0, 0, 0)), linear-gradient(transparent, rgb(0, 0, 0) 70%);
 }
 
@@ -75,10 +74,7 @@ p {
 .container {
   height: 100vh;
   overflow: auto;
-  width: 100%;
   margin: 0 auto;
-  max-width: 1480px;
-  padding-left: 320px;
 }
 
 .container-inner {
